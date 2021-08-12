@@ -1,0 +1,347 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should enter the system with correct information (Positive Test)",
+        "description": "",
+        "id": "login-in;user-should-enter-the-system-with-correct-information-(positive-test)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195899200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Me as user should open the site Facebook.com",
+            "match": {
+              "location": "CheckIphoneSteps.me_as_user_should_open_the_site_Facebook_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter his the email address where its required",
+            "match": {
+              "location": "CheckIphoneSteps.user_should_enter_his_the_email_address_where_its_required()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter his password in the line Password",
+            "match": {
+              "location": "CheckIphoneSteps.user_should_enter_his_password_in_the_line_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will enter the bottom Log In",
+            "match": {
+              "location": "CheckIphoneSteps.user_will_enter_the_bottom_Log_In()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should successfully enter by the system",
+            "match": {
+              "location": "CheckIphoneSteps.user_should_successfully_enter_by_the_system()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User should enter the system with incorrect information (Negative Test)",
+        "description": "",
+        "id": "login-in;user-should-enter-the-system-with-incorrect-information-(negative-test)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Me as user should open the site Facebook.com",
+            "match": {
+              "location": "CheckIphoneSteps.me_as_user_should_open_the_site_Facebook_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should enter his the email address where its required",
+            "match": {
+              "location": "CheckIphoneSteps.user_should_enter_his_the_email_address_where_its_required()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should enter incorrect password in the line Password",
+            "match": {
+              "location": "CheckIphoneSteps.user_should_enter_incorrect_password_in_the_line_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will enter the bottom Log In",
+            "match": {
+              "location": "CheckIphoneSteps.user_will_enter_the_bottom_Log_In()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User will be an able to enter the system as answer from the system",
+            "match": {
+              "location": "CheckIphoneSteps.user_will_be_an_able_to_enter_the_system_as_answer_from_the_system()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "проверка вычитания",
+        "description": "",
+        "id": "login-in;проверка-вычитания",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Я должен зайти на сайт svetofor kg",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Я должен найти наушники для Iphone",
+            "match": {
+              "location": "CheckIphoneSteps.яДолженНайтиНаушникиДляIphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "У меня на карте 100 usd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 16
+                }
+              ],
+              "location": "CheckIphoneSteps.уМеняНаКартеUsd(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Наушники стоят 30 usd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 15
+                }
+              ],
+              "location": "CheckIphoneSteps.наушникиСтоятUsd(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Я нажимаю на кнопку купить",
+            "match": {
+              "location": "CheckIphoneSteps.яНажимаюНаКнопкуКупить()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Сайт должен снять со счета 30 usd",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "У меня на карте должен остаться 70 usd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "70",
+                  "offset": 32
+                }
+              ],
+              "location": "CheckIphoneSteps.уМеняНаКартеДолженОстатьсяUsd(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Receive August salary",
+        "description": "",
+        "id": "login-in;receive-august-salary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I need to receive my month salary",
+            "match": {
+              "location": "CheckIphoneSteps.i_need_to_receive_my_month_salary()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I need to check online my bank account by ibank.com",
+            "match": {
+              "location": "CheckIphoneSteps.i_need_to_check_online_my_bank_account_by_ibank_com()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3525600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "In my account previously i had 100usd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 31
+                }
+              ],
+              "location": "CheckIphoneSteps.in_my_account_previously_i_had_usd(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I will receive 3000usd as august salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 15
+                }
+              ],
+              "location": "CheckIphoneSteps.i_will_receive_usd_as_august_salary(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Total in my bank account supposed to be 3100usd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3100",
+                  "offset": 40
+                }
+              ],
+              "location": "CheckIphoneSteps.total_in_my_bank_account_supposed_to_be_usd(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login In",
+    "description": "",
+    "id": "login-in",
+    "keyword": "Feature",
+    "uri": "features/CheckIphone.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
